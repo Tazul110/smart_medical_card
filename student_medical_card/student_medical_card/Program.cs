@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using student_medical_card.Repository.LoginRepo.Implementations;
 using student_medical_card.Repository.LoginRepo.Interfaces;
+using student_medical_card.Repository.logRepo.Implemantions;
+using student_medical_card.Repository.logRepo.Interfaces;
 using student_medical_card.Repository.MedicineRepo.Implements;
 using student_medical_card.Repository.MedicineRepo.Interfaces;
 using student_medical_card.Repository.PrescriptionRepo.Implementations;
@@ -12,6 +14,8 @@ using student_medical_card.Repository.TestRepo.Implements;
 using student_medical_card.Repository.TestRepo.Interfaces;
 using student_medical_card.Service.LoginServ.Implementations;
 using student_medical_card.Service.LoginServ.Interfaces;
+using student_medical_card.Service.LogServ.Implements;
+using student_medical_card.Service.LogServ.Interfaces;
 using student_medical_card.Service.MedicineServ.Implementations;
 using student_medical_card.Service.MedicineServ.Interfaces;
 using student_medical_card.Service.PrescriptionRepo.interfaces;
@@ -73,6 +77,9 @@ builder.Services.AddScoped<p_IAddServ, p_AddServ>();
 
 builder.Services.AddScoped<s_IAddRepo, s_AddRepo>();
 builder.Services.AddScoped<s_IAddServ, s_AddServ>();
+
+builder.Services.AddScoped<ILogRepo, LogRepo>();
+builder.Services.AddScoped<ILogService, LogService>();
 
 var app = builder.Build();
 

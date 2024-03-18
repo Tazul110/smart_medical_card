@@ -6,6 +6,6 @@ namespace student_medical_card.Repository.PrescriptionRepo.Interfaces
 {
     public interface p_IAddRepo
     {
-        p_Response AddPrescription(SqlConnection connection, Prescription prescription);
+        p_Response AddPrescription(Prescription prescription);
     }
 }

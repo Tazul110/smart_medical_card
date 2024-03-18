@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zTB32h/Pg29tdcd4CVqKyw+Co0LWUV0OZN+glPt4HylcgoKNPUAd1Qxip0/S9ix/z6/glwfl6FhdsliT5XDV2A==",
+  "dgSpecHash": "oZMWYrlNY2g7eKi7DqE/qV8rz9ei02KyfLF76ySUybsYQSjABAW9oEfyiCYINe1nKW/tui6JV/icmGLWed/GsA==",
   "success": true,
-  "projectFilePath": "D:\\student_medical_card_03\\student_medical_card\\student_medical_card\\student_medical_card.csproj",
+  "projectFilePath": "C:\\Users\\TN-99345\\Desktop\\smart_medical_card\\student_medical_card\\student_medical_card\\student_medical_card.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TN-99345\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\TN-99345\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

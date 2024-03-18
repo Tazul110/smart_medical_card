@@ -14,11 +14,11 @@ namespace student_medical_card.Controllers.prescriptionController
     {
        
             private readonly p_IAddServ _service;
-            private readonly IConfiguration _configuration;
+           
 
-            public p_addController(IConfiguration configuration, p_IAddServ service)
+            public p_addController( p_IAddServ service)
             {
-                _configuration = configuration;
+               
                 _service = service;
             }
 
@@ -27,10 +27,9 @@ namespace student_medical_card.Controllers.prescriptionController
             [Route("AddPrescription")]
             public p_Response AddPrescription(Prescription prescription)
             {
-                SqlConnection connection = new SqlConnection(_configuration.GetConnectionString("CrudConnection"));
                 p_Response response = new p_Response();
 
-                response = _service.p_Add(connection, prescription);
+                response = _service.p_Add(prescription);
                 return response;
             }
         

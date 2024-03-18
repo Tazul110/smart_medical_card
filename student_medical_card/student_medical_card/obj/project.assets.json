@@ -4575,11 +4575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\student_medical_card_03\\student_medical_card\\student_medical_card\\student_medical_card.csproj",
+      "projectUniqueName": "C:\\Users\\TN-99345\\Desktop\\smart_medical_card\\student_medical_card\\student_medical_card\\student_medical_card.csproj",
       "projectName": "student_medical_card",
-      "projectPath": "D:\\student_medical_card_03\\student_medical_card\\student_medical_card\\student_medical_card.csproj",
+      "projectPath": "C:\\Users\\TN-99345\\Desktop\\smart_medical_card\\student_medical_card\\student_medical_card\\student_medical_card.csproj",
       "packagesPath": "C:\\Users\\TN-99345\\.nuget\\packages\\",
-      "outputPath": "D:\\student_medical_card_03\\student_medical_card\\student_medical_card\\obj\\",
+      "outputPath": "C:\\Users\\TN-99345\\Desktop\\smart_medical_card\\student_medical_card\\student_medical_card\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TN-99345\\AppData\\Roaming\\NuGet\\NuGet.Config",

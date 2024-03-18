@@ -9,8 +9,14 @@ namespace student_medical_card.Repository.PrescriptionRepo.Implementations
 {
     public class p_AddRepo : p_IAddRepo
     {
-        public p_Response AddPrescription(SqlConnection connection, Prescription prescription)
+        private readonly IConfiguration _configuration;
+        public p_AddRepo(IConfiguration configuration)
         {
+            _configuration = configuration;
+        }
+        public p_Response AddPrescription(Prescription prescription)
+        {
+            SqlConnection connection = new SqlConnection(_configuration.GetConnectionString("CrudConnection"));
             p_Response p_response = new p_Response();
 
             try

@@ -20,7 +20,7 @@ namespace student_medical_card.Controllers.studentController
             _service = service;
         }
 
-        //[Authorize]
+        [Authorize]
         [HttpPost]
         [Route("AddStudent")]
         public s_Response AddStudent(Student student)
