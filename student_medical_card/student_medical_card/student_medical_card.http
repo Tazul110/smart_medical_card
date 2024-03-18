@@ -1,0 +1,6 @@
+@student_medical_card_HostAddress = http://localhost:5149
+
+GET {{student_medical_card_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

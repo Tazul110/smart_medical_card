@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "GV+24mxQQcaEp7QqmnOlsK2xKMQWFZ6W9R14Bo+RLMc=",
+  "Source": "student_medical_card",
+  "BasePath": "_content/student_medical_card",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

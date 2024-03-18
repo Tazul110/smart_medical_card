@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\TN-99345\\Desktop\\Upload_image_project\\uploading_image\\uploading_image\\wwwroot\\upload\\product\\001\\001.png",
+      "PackagePath": "staticwebassets\\upload\\product\\001\\001.png"
+    },
+    {
+      "Id": "C:\\Users\\TN-99345\\Desktop\\Upload_image_project\\uploading_image\\uploading_image\\wwwroot\\upload\\product\\002\\002.png",
+      "PackagePath": "staticwebassets\\upload\\product\\002\\002.png"
+    },
+    {
+      "Id": "C:\\Users\\TN-99345\\Desktop\\Upload_image_project\\uploading_image\\uploading_image\\wwwroot\\upload\\product\\003\\003.png",
+      "PackagePath": "staticwebassets\\upload\\product\\003\\003.png"
+    },
+    {
+      "Id": "C:\\Users\\TN-99345\\Desktop\\Upload_image_project\\uploading_image\\uploading_image\\wwwroot\\upload\\product\\004\\004.png",
+      "PackagePath": "staticwebassets\\upload\\product\\004\\004.png"
+    },
+    {
+      "Id": "C:\\Users\\TN-99345\\Desktop\\Upload_image_project\\uploading_image\\uploading_image\\wwwroot\\upload\\product\\005\\005.png",
+      "PackagePath": "staticwebassets\\upload\\product\\005\\005.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.uploading_image.props",
+      "PackagePath": "build\\uploading_image.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.uploading_image.props",
+      "PackagePath": "buildMultiTargeting\\uploading_image.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.uploading_image.props",
+      "PackagePath": "buildTransitive\\uploading_image.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.uploading_image.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
